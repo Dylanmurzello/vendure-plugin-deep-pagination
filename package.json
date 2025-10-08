@@ -1,7 +1,7 @@
 {
   "name": "@gbros/vendure-plugin-deep-pagination",
   "version": "1.0.0",
-  "description": "Vendure plugin for infinite product pagination using Elasticsearch search_after cursors. Bypasses the 10k offset limit for scalable pagination.",
+  "description": "Infinite product pagination for Vendure e-commerce using Elasticsearch search_after cursors. Bypass the 10k offset limit. O(1) performance at any page depth.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,17 +12,46 @@
   "keywords": [
     "vendure",
     "vendure-plugin",
+    "vendure-ecommerce",
     "elasticsearch",
+    "elasticsearch-plugin",
     "pagination",
     "cursor-pagination",
+    "infinite-scroll",
+    "deep-pagination",
     "search-after",
-    "ecommerce"
+    "ecommerce",
+    "e-commerce",
+    "headless-commerce",
+    "graphql",
+    "graphql-api",
+    "product-search",
+    "product-catalog",
+    "nestjs",
+    "nestjs-plugin",
+    "typescript",
+    "scalability",
+    "performance-optimization",
+    "search-engine",
+    "backend",
+    "api"
   ],
-  "author": "Dylan Murzello <dylanmurzello@gmail.com>",
+  "author": {
+    "name": "Dylan Murzello",
+    "email": "dylanmurzello@gmail.com",
+    "url": "https://github.com/Dylanmurzello"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/Dylanmurzello/vendure-plugin-deep-pagination#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dylanmurzello/vendure-plugin-deep-pagination.git"
+    "url": "git+https://github.com/Dylanmurzello/vendure-plugin-deep-pagination.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dylanmurzello/vendure-plugin-deep-pagination/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "peerDependencies": {
     "@vendure/core": "^3.0.0",
