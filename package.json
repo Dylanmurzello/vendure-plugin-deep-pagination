@@ -1,0 +1,41 @@
+{
+  "name": "@gbros/vendure-plugin-deep-pagination",
+  "version": "1.0.0",
+  "description": "Vendure plugin for infinite product pagination using Elasticsearch search_after cursors. Bypasses the 10k offset limit for scalable pagination.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vendure",
+    "vendure-plugin",
+    "elasticsearch",
+    "pagination",
+    "cursor-pagination",
+    "search-after",
+    "ecommerce"
+  ],
+  "author": "Dylan Murzello <dylanmurzello@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylanmurzello/vendure-plugin-deep-pagination.git"
+  },
+  "peerDependencies": {
+    "@vendure/core": "^3.0.0",
+    "@elastic/elasticsearch": "^8.0.0"
+  },
+  "devDependencies": {
+    "@vendure/core": "^3.1.2",
+    "@elastic/elasticsearch": "^8.15.0",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
