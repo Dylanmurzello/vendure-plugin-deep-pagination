@@ -2,7 +2,7 @@
 
 > Infinite product pagination using Elasticsearch `search_after` cursors. Bypass the 10k limit.
 
-[![npm version](https://img.shields.io/npm/v/@gbros/vendure-plugin-deep-pagination)](https://www.npmjs.com/package/@gbros/vendure-plugin-deep-pagination)
+[![npm version](https://img.shields.io/npm/v/@dylanmurzello/vendure-plugin-deep-pagination)](https://www.npmjs.com/package/@dylanmurzello/vendure-plugin-deep-pagination)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 
@@ -25,7 +25,7 @@ This plugin uses Elasticsearch's `search_after` API for cursor-based pagination:
 ## Installation
 
 ```bash
-npm install @gbros/vendure-plugin-deep-pagination
+npm install @dylanmurzello/vendure-plugin-deep-pagination
 ```
 
 ## Quick Start
