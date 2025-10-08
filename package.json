@@ -1,5 +1,5 @@
 {
-  "name": "@gbros/vendure-plugin-deep-pagination",
+  "name": "@dylanmurzello/vendure-plugin-deep-pagination",
   "version": "1.0.0",
   "description": "Infinite product pagination for Vendure e-commerce using Elasticsearch search_after cursors. Bypass the 10k offset limit. O(1) performance at any page depth.",
   "main": "dist/index.js",
